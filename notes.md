@@ -34,7 +34,7 @@ solution *= x } console.log(solution);<br>
 
 flick(1/30th second at 30hz) = 23,520,000
 flick(1/30th second at 60hz) = 47,040,000
-flick(1/30th second at 60hz) = 94,080,000
+flick(1/30th second at 120hz) = 94,080,000
 ^Above literally useless in this project, just keeping it here for self reminding purposes <br>
 
 example for-L: for (var x = 0; x < 999; x + 1)<br>
