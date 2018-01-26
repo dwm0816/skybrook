@@ -13,7 +13,9 @@ X++/X-- returns then increments/decrements<br>
 ++X/--X Increments/decrements then returns<br>
 ^Loop reminders^<br>
 
-*= results in multiplying then assigning the multiplied number to the variable (EG x=4; x *= 4, x now equals 16)
+*= results in multiplying then assigning the multiplied number to the variable (EG x=4; x *= 4, x now equals 16)<br>
+/= results in the same as *= but via division. <br>
+
 ^Short math reminders^
 JS weirdness reminder^<br>
 
