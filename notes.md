@@ -27,6 +27,16 @@ x /= 5 // same as x = x / 5
 ^Short math reminders^
 JS weirdness reminder^<br>
 
+var solution=1<br>
+for (var x = 12; x > 1; x--){<Br>
+solution *= x } console.log(solution);<br>
+^Find factorials via replacing X in var1^ <br>
+
+flick(1/30th second at 30hz) = 23,520,000
+flick(1/30th second at 60hz) = 47,040,000
+flick(1/30th second at 60hz) = 94,080,000
+^Above literally useless in this project, just keeping it here for self reminding purposes <br>
+
 example for-L: for (var x = 0; x < 999; x + 1)<br>
 
 Note to self: Header.<br>
