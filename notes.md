@@ -15,6 +15,14 @@ X++/X-- returns then increments/decrements<br>
 
 *= results in multiplying then assigning the multiplied number to the variable (EG x=4; x *= 4, x now equals 16)<br>
 /= results in the same as *= but via division. <br>
+------------------------------------------
+x++ or ++x // same as x = x + 1
+x-- or --x // same as x = x - 1
+x += 3 // same as x = x + 3
+x -= 6 // same as x = x - 6
+x *= 2 // same as x = x * 2
+x /= 5 // same as x = x / 5
+------------------------------------------
 
 ^Short math reminders^
 JS weirdness reminder^<br>
