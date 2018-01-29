@@ -27,9 +27,6 @@ body{
   margin:0;
   color:#fff;
 }
-.menuset{
-
-}
 .logohead{
   width:20vw;
   height:10vh;
@@ -75,11 +72,33 @@ a:hover{
 }
 .content{
   color:white;
+  display:flex;
 
 }
 .cell{
-  width: 100%
-
+  width: 80%
+}
+.sideBar{
+  width: 20%
+  border-radius:15px;
+  padding-top:60px;
+  padding-right:10px;
+}
+.sideBarC1{
+  background-color:white;
+  border-radius: 15px;
+  color:black;
+  padding-left:7px;
+  padding-right:7px;
+}
+#menuHeader{
+  margin:0;
+}
+#menuBreak{
+  margin:1;
+}
+.menuContent{
+  margin:0;
 }
 #welcomeText{
   padding-left: 15px;
