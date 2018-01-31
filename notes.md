@@ -22,7 +22,7 @@ x += 3 // same as x = x + 3
 x -= 6 // same as x = x - 6
 x *= 2 // same as x = x * 2
 x /= 5 // same as x = x / 5
-------------------------------------------
+------------------------------------------=
 
 ^Short math reminders^
 JS weirdness reminder^<br>
@@ -31,7 +31,7 @@ var solution=1<br>
 for (var x = 12; x > 1; x--){<Br>
 solution *= x } console.log(solution);<br>
 ^Find factorials via replacing X in var1^ <br>
-
+=*
 flick(1/30th second at 30hz) = 23,520,000
 flick(1/30th second at 60hz) = 47,040,000
 flick(1/30th second at 120hz) = 94,080,000
@@ -43,3 +43,23 @@ Note to self: Header.<br>
 Note to self: put notes to self as "toDos" on the project board.<br>
 
 <!-- I=V/r! -->
+
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+// the variable `i` is used to step through each element in the array
+for (var i = 0; i < donuts.length; i++) {
+    donuts[i] += " hole";
+    donuts[i] = donuts[i].toUpperCase();
+}
+
+java array loop reminder
+Note to self: 15.19. Inline array loop <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+In case I forget:
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+donuts.forEach(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  console.log(donut);
+});
+(The program dose love its donuts...)
