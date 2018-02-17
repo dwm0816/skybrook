@@ -12,7 +12,7 @@ Welcome to my notebook. Full of snippets, dumb thoughts, reminders and more!
 X++/X-- returns then increments/decrements<br>
 ++X/--X Increments/decrements then returns<br>
 ^Loop reminders^<br>
-
+qq
 *= results in multiplying then assigning the multiplied number to the variable (EG x=4; x *= 4, x now equals 16)<br>
 /= results in the same as *= but via division. <br>
 ------------------------------------------
@@ -22,7 +22,7 @@ x += 3 // same as x = x + 3
 x -= 6 // same as x = x - 6
 x *= 2 // same as x = x * 2
 x /= 5 // same as x = x / 5
-------------------------------------------= 
+------------------------------------------=
 
 ^Short math reminders^
 JS weirdness reminder^<br>
