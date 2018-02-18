@@ -11,3 +11,16 @@ $('#menulist').append(' | ')
 $('#menulist').append('<x id="menuitem"><a href="resources.html">Resources</a>','</x>')
 $('#menulist').append(' | ')
 $('#menulist').append('<x id="menuitem"><a href="about.html">About</a>','</x>')
+$('.mainmenu').append('</ul>')
+$('.menu').append('</div>')
+$('.header').append('</div>')
+
+// End of Header
+// Begin of footer
+$('#core').append('<div id="footer">')
+$('#footer').append('<div id="footContent">')
+$('#footContent').append('<p id="copyrightNotice">boilerplate here</p>')
+
+
+$('#footer').append('</div>')
+$('#core').append('</div>')

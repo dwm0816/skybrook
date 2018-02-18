@@ -14,7 +14,7 @@ body{
   border-bottom:5px solid rgb(58,0,197);
 
 }
-.footer{
+#footer{
   height:15vh;
   width:100vw;
   background-color:rgb(87,17,255);
@@ -22,7 +22,7 @@ body{
   display: flex;
   border-top:5px solid rgb(58,0,197);
 }
-.footContent{
+#footContent{
   display:flex;
   color:white;
 }
