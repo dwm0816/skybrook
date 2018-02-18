@@ -1,6 +1,6 @@
 body{
   margin:0 !important;
-  background-color:rgb(40,40,40);
+  background-color:rgb(47, 47, 47);
   padding:0 !important;
   font-family: Verdana,Arial,Helvetica;
 
@@ -82,7 +82,7 @@ a:hover{
   cursor: pointer;
 }
 .currentlink{
-  color:#FAA019 !important;
+  color:rgb(242, 160, 0)!important;
 
 }
 .content{

@@ -21,6 +21,5 @@ $('#core').append('<div id="footer">')
 $('#footer').append('<div id="footContent">')
 $('#footContent').append('<p id="copyrightNotice">boilerplate here</p>')
 
-
 $('#footer').append('</div>')
 $('#core').append('</div>')
