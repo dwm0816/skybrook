@@ -1,17 +1,17 @@
 body{
   margin:0 !important;
-  background-color:rgb(47, 47, 47);
+  background-color:white;
   padding:0 !important;
   font-family: Verdana,Arial,Helvetica;
 
 }
 .header{
-  height:15vh;
+  height:12vh;
   width:100vw;
   background-color:rgb(87,17,255);
   margin:0 !important;
   display: flex;
-  border-bottom:5px solid rgb(58,0,197);
+  border-bottom:5px solid rgb(35,35,35);
 
 }
 #footer{
@@ -20,7 +20,7 @@ body{
   background-color:rgb(87,17,255);
   margin:0 !important;
   display: flex;
-  border-top:5px solid rgb(58,0,197);
+  border-top:5px solid rgb(35,35,35);
 }
 #footContent{
   display:flex;
@@ -121,12 +121,13 @@ a:hover{
 .menuContent{
   margin:0;
 }
-#welcomeText{
+.welcomeText{
   padding-left: 15px;
+  color: black !important;
 }
 .contentBox{
-  background-color:white;
-  color:black;
+  background-color:rgb(87,17,255);
+  color:white;
   border-radius:15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -145,5 +146,10 @@ a:hover{
   font-weight: bold;
 }
 .listLink{
-  color: purple !important;
+  color: white !important;
+  font-weight: bold;
+}
+#logo{
+  width:100px;
+  display: flex;
 }

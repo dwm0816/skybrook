@@ -1,4 +1,7 @@
 $('#core').prepend('<div class="header">')
+$('.header').append('<div id="logoHold">')
+$('#logoHold').append('<img src="resources/logo.png" alt="logo" id="logo">')
+$('#logoHold').append('</div>')
 $('.header').append('<div class="logohead">')
 $('.logohead').append('<h1 id="headtext">SKYBROOK FOUNDATION</h1>')
 $('.header').append('</div>')
