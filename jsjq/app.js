@@ -16,10 +16,18 @@ $('.menu').append('</div>')
 $('.header').append('</div>')
 
 // End of Header
+//Begin sideBar
+$('.content').append('<div class="sideBar">')
+$('.sideBar').append('<div class="sideBarC1">')
+$('.sideBarC1').append('<h3 id="menuHeader">Menu</h3>')
+$('.sideBarC1').append('<hr id="menuBreak">')
+$('.sideBarC1').append(`<p class="menuContent">I'm some content in a sidebar!</p>`)
+$('.sidebarC1').append('</div>')
+$('.sideBar').append('</div>')
+//end sidebar
 // Begin of footer
 $('#core').append('<div id="footer">')
 $('#footer').append('<div id="footContent">')
-$('#footContent').append('<p id="copyrightNotice">boilerplate here</p>')
-
+$('#footContent').append('<p id="copyrightNotice">All content is wholly owned by Skybrook Foundation, copyright 2018©<br><br>DISCLAIMER: While we attempt to keep information as up to date and accurate as possible, we are not responsible for accidentally inaccurate information. If you have questions make sure to inquire further with your physician. If you spot an inaccuracy in our information, feel free to let us know via the contact us form.</p>')
 $('#footer').append('</div>')
 $('#core').append('</div>')
