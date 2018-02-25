@@ -51,7 +51,7 @@ body{
 
 }
 .menu{
-  width:40vw;
+  width:35vw;
   height:10vh;
   color:#fff;
   text-align: right;
@@ -152,4 +152,18 @@ a:hover{
 #logo{
   width:100px;
   display: flex;
+}
+.storyTitle{
+  color:white;
+}
+.storyContent{
+  color:white;
+}
+.author{
+  color:white;
+  font-style: italic;
+}
+.date{
+  color:white;
+  font-style: italic;
 }
