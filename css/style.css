@@ -133,6 +133,7 @@ a:hover{
   padding-right: 15px;
   padding-top: 2px;
   padding-bottom:2px;
+  border:solid rgb(0, 0, 0) 1.5px;
 }
 .contentCell{
   padding-left:1px;
