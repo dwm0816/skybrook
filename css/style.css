@@ -169,3 +169,7 @@ a:hover{
   font-style: italic;
 }
 /* ---- */
+.readMore{
+  color: rgb(242, 160, 0) !important;
+  font-weight: bold;
+}
