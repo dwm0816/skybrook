@@ -5,12 +5,12 @@ window.mobilecheck = function() {
   return check;
 };
 //prints the value then executes a redirect to the mobile site
-console.log(mobilecheck())
-if(mobilecheck(true)){
+console.log(mobilecheck());
+if(mobilecheck(true)){ // If client is mobile then
 
-} else {
-
-}
+} else { // If client is tablet or desktop, terminate.
+ 
+};
 
 //---------------------------
 $('#core').prepend('<div class="header">')
