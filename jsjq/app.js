@@ -12,6 +12,14 @@ if(mobilecheck(true)){ // If client is mobile then
 
 };
 
+$(document).ready(function() {
+    $("[href]").each(function() {
+        if (this.href == window.location.href) {
+            $(this).addClass("currentLink");
+        }
+    });
+});
+
 //---------------------------
 $('#core').prepend('<div class="header">')
 $('.header').append('<div id="logoHold">')
