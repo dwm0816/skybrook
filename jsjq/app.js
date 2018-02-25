@@ -24,8 +24,8 @@ $('.content').append('<div class="sideBar">')
 $('.sideBar').append('<div class="sideBarC1">')
 $('.sideBarC1').append('<h3 id="menuHeader">Menu</h3>')
 $('.sideBarC1').append('<hr id="menuBreak">')
-$('.sideBarC1').append(`<p class="menuContent">I'm some content in a sidebar!</p>`)
-$('.sidebarC1').append('</div>')
+$('.sideBarC1').append('<a class="twitter-timeline" href="https://twitter.com/SkyBrookFndtn?ref_src=twsrc%5Etfw">Tweets by SkyBrookFndtn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>')
+$('.sideBarC1').append('</div>')
 $('.sideBar').append('</div>')
 //end sidebar
 // Begin of footer
