@@ -173,3 +173,7 @@ a:hover{
   color: rgb(242, 160, 0) !important;
   font-weight: bold;
 }
+.metaData{
+  font-style: italic;
+  font-weight: lighter;
+}
