@@ -7,9 +7,9 @@ window.mobilecheck = function() {
 //prints the value then executes a redirect to the mobile site
 console.log(mobilecheck());
 if(mobilecheck(true)){ // If client is mobile then
-
+  $('#core').css('background-color','red')
 } else { // If client is tablet or desktop, terminate.
- 
+
 };
 
 //---------------------------
