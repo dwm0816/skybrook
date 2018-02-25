@@ -19,7 +19,7 @@ $(document).ready(function() {
         }
     });
 });
-
+//--
 //---------------------------
 $('#core').prepend('<div class="header">')
 $('.header').append('<div id="logoHold">')
