@@ -7,7 +7,7 @@ window.mobilecheck = function() {
 //prints the value then executes a redirect to the mobile site
 console.log(mobilecheck());
 if(mobilecheck(true)){ // If client is mobile then
-  window.location.href = ''
+  window.location.href = "../mobile/index.html"
 } else { // If client is tablet or desktop, terminate.
 
 };
