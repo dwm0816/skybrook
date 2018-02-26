@@ -35,12 +35,11 @@ body{
 }
 
 .menu{
-  width:35vw;
+  width:100vw;
   height:10vh;
   color:#fff;
-  text-align: right;
+  text-align: center;
   font-size: 0.9em;
-  padding-left: 25vw;
 }
 
 #subBar{

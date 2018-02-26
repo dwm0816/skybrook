@@ -11,7 +11,6 @@ $('.header').append('<div class="logohead">')
 $('.logohead').append('<a href="index.html"><h1 id="headtext">SKYBROOK</h1></a>')
 $('.header').append('</div>')
 $('.header').append('<div id="spacer"></div>')
-
 $('.header').append('<div class="menu">')
 $('.menu').append('<div class="mainmenu">')
 $('.mainmenu').append('<ul id="menulist">')
