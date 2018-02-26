@@ -1,0 +1,123 @@
+body{
+  margin:0 !important;
+  background-color:white;
+  padding:0 !important;
+  font-family: Verdana,Arial,Helvetica;
+}
+
+/* header */
+.header{
+  height:44vh;
+  width:100vw;
+  background-color:rgb(87,17,255);
+  margin:0 !important;
+  border-bottom:5px solid rgb(35,35,35);
+  padding: 0 !important;
+
+}
+
+#headtext{
+  font-size:10em;
+  margin:0;
+  color:#fff;
+  padding-left: 100px;
+}
+
+.logohead{
+  width:20vw;
+  height:10vh;
+  padding-top:0px !important;
+  padding-left:5px;
+
+}
+#menuHeader{
+  margin:0;
+}
+
+.menu{
+  width:35vw;
+  height:10vh;
+  color:#fff;
+  text-align: right;
+  font-size: 0.9em;
+  padding-left: 25vw;
+}
+
+#subBar{
+  height: 10vh;
+  width: 100vw;
+  background-color: green;
+}
+/* end header */
+.content{
+  color:white;
+  display:flex;
+  padding-left: 5px;
+  padding-right: 2px;
+  padding-bottom: 15px;
+
+}
+.cell{
+  width: 100%
+}
+.welcomeText{
+  padding-left: 5px;
+  color: black !important;
+}
+.contentBox{
+  background-color:rgb(87,17,255);
+  color:white;
+  border-radius:15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom:2px;
+  border:solid rgb(0, 0, 0) 1.5px;
+}
+.contentCell{
+  padding-left:1px;
+  font-size: 25px;
+}
+.bolded{
+  font-weight: bold;
+  font-size: 25px;
+}
+a:link{
+  color:#fff;
+}
+a:visited{
+  color:#fff;
+}
+a:focus{
+  color:#FAA019;
+}
+a:active{
+  color:orange;
+}
+a:hover{
+  color:orange;
+  cursor: pointer;
+}
+.currentLink{
+  color:rgb(87,17,255)!important;
+
+}
+#menulist{
+  padding-top: 120px;
+  font-size: 25px;
+}
+a{
+  text-decoration: none;
+}
+.mobileList{
+  font-size: 25px;
+}
+#menuitem{
+  font-weight:bold;
+  font-weight:1em;
+  border: solid orange 1px;
+  border-radius: 7px;
+  padding: 3px;
+  background-color: orange;
+  font-size: 26px;
+}
