@@ -62,5 +62,9 @@ donuts.forEach(function(donut) {
   donut = donut.toUpperCase();
   console.log(donut);
 });
-(The program dose love its donuts...)
+(The program does love its donuts...)
 muffins too.
+Because sometimes you need to write 4 lines of identical code all at once.
+Because sometimes you need to write 4 lines of identical code all at once.
+Because sometimes you need to write 4 lines of identical code all at once.
+Because sometimes you need to write 4 lines of identical code all at once.
